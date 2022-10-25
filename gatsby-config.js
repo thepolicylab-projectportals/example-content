@@ -15,7 +15,8 @@ module.exports = {
           },
         ],
         tailwindConfig: require("./tailwind.config"),
-        staticText: require("./language.json")
+        staticText: require("./language.json"),
+        showDevBanner: true
       },
     },
     `@thepolicylab-projectportals/project-portal-content-netlify`,
