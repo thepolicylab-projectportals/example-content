@@ -1,3 +1,5 @@
+const staticText = require("./language.json")
+
 module.exports = {
   siteMetadata: {
     title: "North Carolina Project Portal",
@@ -8,14 +10,14 @@ module.exports = {
       resolve: `@thepolicylab-projectportals/gatsby-theme-project-portal`,
       options: {
         pages: [
-          {
-            name: "Landing Page",
-            link: "/",
-            show: true,
-          },
+          { name: staticText.open.pageName, link: "/", show: true },
+          { name: staticText.ongoing.pageName, link: "/ongoing", show: true },
+          { name: staticText.completed.pageName, link: "/completed", show: true },
+          { name: "About", link: "/about", show: true },
+          { name: "Contact", link: "/contact", show: true },
         ],
         tailwindConfig: require("./tailwind.config"),
-        staticText: require("./language.json"),
+        staticText: staticText,
         showDevBanner: true
       },
     },
