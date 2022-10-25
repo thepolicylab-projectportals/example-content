@@ -1,10 +1,8 @@
-// General metadata for the site
-const siteMetadata = {
-  title: "Project Portal Example (Site with Queries)",
-}
-
 module.exports = {
-  siteMetadata: siteMetadata,
+  siteMetadata: {
+    title: "North Carolina Project Portal",
+    url: "https://projectportal.nc.gov/",
+  },
   plugins: [
     {
       resolve: `@thepolicylab-projectportals/gatsby-theme-project-portal`,
