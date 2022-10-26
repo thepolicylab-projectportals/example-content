@@ -1,9 +1,5 @@
 {
   "id": "reccg82RIvCXbSFJV",
-  "contacts": [
-    "rec911IUDpPgyaAVl",
-    "recM4T5z0QlNxbq8J"
-  ],
   "partnerName": "North Carolina",
   "status": "ongoing",
   "agency": "NC Department of Public Safety",
@@ -20,5 +16,9 @@
   "deliverable": "- Design for new RFA questions and review process\n- Toolkits to assist with implementation of new RFA questions and scoring procedures\n",
   "summary": "This project entails iterative development and testing of Request for Applications (RFA) requirements to incorporate logic models and information on evidence of program impact into the processes used by the Crime Victim Services and Juvenile Justice committees of the Governor\u2019s Crime Commission to evaluate applications.\n",
   "lastModified": "2022-05-27T16:34:08.000Z",
-  "Created": "2022-02-17T17:47:34.000Z"
+  "created": "2022-02-17T17:47:34.000Z",
+  "mainContact": "rec911IUDpPgyaAVl",
+  "projectTeam": [
+    "recM4T5z0QlNxbq8J"
+  ]
 }
