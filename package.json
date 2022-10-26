@@ -15,6 +15,7 @@
     "gatsby": "^4.24.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "gatsby-plugin-google-gtag": "^4.24.0"
+    "gatsby-plugin-google-gtag": "^4.24.0",
+    "gatsby-plugin-netlify": "^5.0.1"
   }
 }
