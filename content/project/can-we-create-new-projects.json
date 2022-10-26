@@ -1,0 +1,21 @@
+{
+  "topics": [
+    "Data Literacy"
+  ],
+  "agency": "Brown Center for Computation and Visualization",
+  "summary": "We would like to create new netlify pages. Can we do it?",
+  "question": "Can we create new projects on the project portal?",
+  "mainContact": "NC Office of Strategic Partnerships",
+  "endDate": "2022-10-28T04:00:00.000Z",
+  "slug": "can-we-create-new-projects",
+  "opportunityCloses": "2022-10-28T04:00:00.000Z",
+  "startDate": "2022-10-25T04:00:00.000Z",
+  "expertise": "Enough for a basic user.",
+  "status": "open",
+  "projectTeam": [
+    "NC Office of Strategic Partnerships"
+  ],
+  "purpose": "Proof of concept.",
+  "lastModified": "2022-10-26T00:42:31.043Z",
+  "deliverable": "* A netlify page."
+}
