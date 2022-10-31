@@ -2192,7 +2192,7 @@
   dependencies:
     mini-svg-data-uri "^1.2.3"
 
-"@thepolicylab-projectportals/gatsby-theme-project-portal@^3.0.1":
+"@thepolicylab-projectportals/gatsby-theme-project-portal@^3.0.0":
   version "3.0.1"
   resolved "https://npm.pkg.github.com/download/@thepolicylab-projectportals/gatsby-theme-project-portal/3.0.1/27293a427c229b860ec8f3e3a08008e4a2525a94#27293a427c229b860ec8f3e3a08008e4a2525a94"
   integrity sha512-ZAXU+82KX4/BgoJfDToX6c1HmJaWSFfp1t7H9Zmbtz7Wx706iRPYDidK9/ddDb/Gi4N43x6SFdU7+Av08xzY0A==
@@ -2216,7 +2216,7 @@
     react-share "^4.4.0"
     tailwindcss "^3.1.8"
 
-"@thepolicylab-projectportals/project-portal-content-netlify@^3.0.1":
+"@thepolicylab-projectportals/project-portal-content-netlify@^3.0.0":
   version "3.0.1"
   resolved "https://npm.pkg.github.com/download/@thepolicylab-projectportals/project-portal-content-netlify/3.0.1/01b2bdefabdf7261692478cabc038141f7213fbc#01b2bdefabdf7261692478cabc038141f7213fbc"
   integrity sha512-InQFR2nPemtx3pAPnSTLULoDwuNaSQfLhOGtODSpxW9akH7kOX4z+SeyFAHSuN8kUOY2050iK5AMtVt1gukD4w==
