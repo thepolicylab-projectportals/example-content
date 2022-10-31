@@ -1,11 +1,11 @@
-# North Carolina Project Portal
+# Example Project Portal
 
-- View the Preview Site at https://nc-project-portal-preview.netlify.app/
-- Login to the Content Management System at https://main--nc-project-portal-preview.netlify.app/admin/
+- View the Preview Site at https://qn-project-portal.netlify.app/
+- Login to the Content Management System at https://main--qn-project-portal.netlify.app/admin/
 
 A usage of
 [gatsby-theme-project-portal](https://github.com/thepolicylab-projectportals/project-portal-theme)
-for the State of North Carolina. 
+for the (fictional) State of Quinetucket. 
 
 ## Quick Start Guide
 
