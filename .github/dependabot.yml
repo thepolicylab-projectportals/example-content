@@ -18,8 +18,3 @@ updates:
       interval: daily
     registries:
       - npm-github
-  -
-    directory: /
-    package-ecosystem: github-actions
-    schedule:
-      interval: daily
