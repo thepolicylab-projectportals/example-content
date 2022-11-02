@@ -33,19 +33,6 @@ module.exports = {
       },
     },
     `@thepolicylab-projectportals/project-portal-content-netlify`,
-    {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        trackingIds: ["G-W667ER3CGB"],
-        gtagConfig: {
-          anonymize_ip: true,
-        },
-        pluginConfig: {
-          head: true,
-          respectDNT: true,
-        },
-      },
-    },
     `gatsby-plugin-netlify`,
   ],
 }
