@@ -34,3 +34,8 @@ Restart WebStorm and ensure that the variable `GITHUB_NPM_REGISTRY_TOKEN` appear
 
 Add it as a build environment variable with the name `GITHUB_NPM_REGISTRY_TOKEN`.
 
+## Enabling users to access Netlify CMS
+Add the users to the "Identity" tab in the Netlify CMS UI.
+You also need to activate:
+- Any external providers which are wanted: GitHub or Google are commonly used at CCV.
+- Git gateway.
