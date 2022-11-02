@@ -29,6 +29,7 @@ module.exports = {
         footertext: "#194009",
         primary: "#186d00",
         primarydark: "#174009",
+        topics: "#82e773",
       },
     },
   },
