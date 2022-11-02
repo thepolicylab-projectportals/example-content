@@ -2,8 +2,7 @@ const staticText = require("./language.json")
 
 module.exports = {
   siteMetadata: {
-    title: "North Carolina Project Portal",
-    url: "https://projectportal.nc.gov/",
+    title: "Quinetucket Project Portal",
   },
   plugins: [
     {
