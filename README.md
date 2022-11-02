@@ -9,12 +9,12 @@ for the (fictional) State of Quinetucket.
 
 ## Quick Start Guide
 
-To run this project locally, you need to have the `GITHUB_NPM_REGISTRY_TOKEN` set in your local environment. This is already set on Netlify for the builds.
+To run this project, you need to have the `GITHUB_NPM_REGISTRY_TOKEN` set in your environment.
 
-The steps are as follows:
+Generate a GitHub Personal Access Token with access to the `@thepolicylab-projectportals` organization on GitHub. It needs the scopes:
+- read:packages
 
-Generate a GitHub Personal Access Token with access to the `@thepolicylab-projectportals` organization on GitHub.
-
+### Local
 Add this to your `.zprofile` (or `.bash_profile`). 
 
 The most secure way is to add this to your macOS Keychain first:
@@ -29,3 +29,8 @@ export GITHUB_NPM_REGISTRY_TOKEN=$(security find-generic-password -s 'GitHub NPM
 ```
 
 Restart WebStorm and ensure that the variable `GITHUB_NPM_REGISTRY_TOKEN` appears in the list of (system) environment variables in the Run Configurations dialog box. 
+
+### Netlify
+
+Add it as a build environment variable with the name `GITHUB_NPM_REGISTRY_TOKEN`.
+
