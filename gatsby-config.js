@@ -30,6 +30,7 @@ module.exports = {
         tailwindConfig: require("./tailwind.config"),
         staticText: staticText,
         showDevBanner: true,
+        faviconPath: `${__dirname}/content/theme-image/favicon.png`,
       },
     },
     `@thepolicylab-projectportals/project-portal-content-netlify`,
