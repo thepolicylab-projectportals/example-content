@@ -1,4 +1,4 @@
-const staticText = require("./language.json")
+const staticText = require("content/site/language.json")
 
 module.exports = {
   siteMetadata: {

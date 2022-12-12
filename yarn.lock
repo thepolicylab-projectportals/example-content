@@ -2201,10 +2201,10 @@
   dependencies:
     mini-svg-data-uri "^1.2.3"
 
-"@thepolicylab-projectportals/gatsby-theme-project-portal@^4.1.0":
-  version "4.1.0"
-  resolved "https://npm.pkg.github.com/download/@thepolicylab-projectportals/gatsby-theme-project-portal/4.1.0/726154ffa902857a7b34da966ecff3598eb97e67#726154ffa902857a7b34da966ecff3598eb97e67"
-  integrity sha512-yMhuFUBrwHAqZc0nMjBxIWYecyYMoHB+N54iw0Uqkyc+unTbl1QT8PMynMY/5Hh1ytb67oMr7YovVLGDyiYjNA==
+"@thepolicylab-projectportals/gatsby-theme-project-portal@^5.0.0-1":
+  version "5.0.0-1"
+  resolved "https://npm.pkg.github.com/download/@thepolicylab-projectportals/gatsby-theme-project-portal/5.0.0-1/8d9df66798bdd09d662642d009a0114888f5cfb3#8d9df66798bdd09d662642d009a0114888f5cfb3"
+  integrity sha512-SHilUlCvSY9suT8YAsOUHG/YvAo56c15M/ii7HUufqIMJQyVFobdyCvqxln0Jgt3o9MmDXOQRBDVtZNKunISpA==
   dependencies:
     "@headlessui/react" "^1.7.5"
     "@tailwindcss/forms" "^0.5.3"
@@ -2227,10 +2227,10 @@
     react-share "^4.4.0"
     tailwindcss "^3.2.4"
 
-"@thepolicylab-projectportals/project-portal-content-netlify@^4.1.0":
-  version "4.1.0"
-  resolved "https://npm.pkg.github.com/download/@thepolicylab-projectportals/project-portal-content-netlify/4.1.0/abcc94a2c2761b0eb8d9ffc8274143128ee4de3e#abcc94a2c2761b0eb8d9ffc8274143128ee4de3e"
-  integrity sha512-nC342QXhZaUnJhw0tqGb/fajkcHcmyU0zcJpATAPNlLIdluPFVIzj8kaQzYGNs0tA/y/7VX0d7u/JUAhs/SFnA==
+"@thepolicylab-projectportals/project-portal-content-netlify@^5.0.0-1":
+  version "5.0.0-1"
+  resolved "https://npm.pkg.github.com/download/@thepolicylab-projectportals/project-portal-content-netlify/5.0.0-1/62b0d025de326e844feb1999ab2227fe42d1e74b#62b0d025de326e844feb1999ab2227fe42d1e74b"
+  integrity sha512-zNSF8wcP7kZZkkWUvJAtekxxfDeUst27OuAF+R1rCt2STEOzZmm4xzuxPrBiH6+s0WvkPxw6JK9QXYQzz7XAxw==
   dependencies:
     gatsby-plugin-netlify-cms "^6.24.0"
     gatsby-source-filesystem "^4.25.0"
