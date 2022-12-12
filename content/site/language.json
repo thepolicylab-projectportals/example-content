@@ -54,7 +54,7 @@
   "footer": {
     "heading": {
       "title": "QN Office of Strategic Partnerships",
-      "link": "https://www.osbm.nc.gov/"
+      "link": "https://www.osbm.qn.gov/"
     },
     "copyright": "© 2022 The State of Quinetucket. All rights reserved.",
     "links": [
@@ -75,5 +75,6 @@
   "bottom_banner": {
     "text": "This project portal was developed by the QN Office of Strategic Partnerships and The Policy Lab at Brown University. If you have ideas for how to improve it, please [let us know!](/contact)",
     "link": ""
-  }
+  },
+  "lastModified": "2022-12-12T19:41:07.011Z"
 }
