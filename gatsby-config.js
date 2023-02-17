@@ -1,35 +1,16 @@
-const staticText = require("./language.json")
+const {
+  loadProjectPortalThemeOptions,
+} = require("@thepolicylab-projectportals/project-portal-content-netlify/utils/theme-options")
+const { siteMetadata, themeOptions } = loadProjectPortalThemeOptions()
 
 module.exports = {
-  siteMetadata: {
-    title: "Quinetucket Project Portal",
-  },
+  siteMetadata: siteMetadata,
   plugins: [
     {
       resolve: `@thepolicylab-projectportals/gatsby-theme-project-portal`,
       options: {
-        pages: [
-          { name: staticText.open.pageName, link: "/", show: true },
-          {
-            name: staticText.ongoing.pageName,
-            link: "/ongoing",
-            show: true,
-          },
-          {
-            name: staticText.completed.pageName,
-            link: "/completed",
-            show: true,
-          },
-          {
-            name: "About",
-            link: "/about",
-            show: true,
-          },
-          { name: "Contact", link: "/contact", show: true },
-        ],
+        ...themeOptions,
         tailwindConfig: require("./tailwind.config"),
-        staticText: staticText,
-        showDevBanner: true,
         faviconPath: `${__dirname}/content/theme-image/favicon.png`,
       },
     },
