@@ -7899,7 +7899,7 @@ __metadata:
     "@thepolicylab-projectportals/project-portal-content-netlify": ^6.0.0
     gatsby: ^5.7.0
     gatsby-plugin-netlify: ^5.1.0
-    gatsby-plugin-sitemap: ^6.6.0
+    gatsby-plugin-sitemap: ^6.8.0
     pa11y-ci: ^3.0.1
     prettier: ^2.8.4
     react: ^18.2.0
@@ -8906,9 +8906,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-sitemap@npm:^6.6.0":
-  version: 6.6.0
-  resolution: "gatsby-plugin-sitemap@npm:6.6.0"
+"gatsby-plugin-sitemap@npm:^6.8.0":
+  version: 6.8.0
+  resolution: "gatsby-plugin-sitemap@npm:6.8.0"
   dependencies:
     "@babel/runtime": ^7.20.13
     common-tags: ^1.8.2
@@ -8918,7 +8918,7 @@ __metadata:
     gatsby: ^5.0.0-next
     react: ^18.0.0 || ^0.0.0
     react-dom: ^18.0.0 || ^0.0.0
-  checksum: d49631bbd110c0912881a212d1e85a486a56a0a8c4070a767761c02cafd7fadbc5b7b997ccf329dac99226cb73fa1ea3c691212fc182e031e7732cd7a16cdadb
+  checksum: 0c8bde8599e6e650786ce654b0b9985ba121f171779b482c192053e63b3707a82ae230cb5bfdc324d3762ae2ee42bf41ba6919293190ba7457146491a74f0598
   languageName: node
   linkType: hard
 
