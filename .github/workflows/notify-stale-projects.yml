@@ -1,4 +1,4 @@
-name: stale project email
+name: call stale project email
 
 on: pull_request
 
