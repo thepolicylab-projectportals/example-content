@@ -6,4 +6,3 @@ jobs:
   call-stale-email-workflow:
     uses: thepolicylab-projectportals/.github/.github/workflows/notify-stale-projects.yml@feat-notification-stale-projects
     secrets: inherit
-    to: heather_yu@brown.edu
