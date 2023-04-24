@@ -1,6 +1,8 @@
 name: send stale project email
 
-on: pull_request
+on:
+  pull_request:
+  workflow_dispatch:
 
 jobs:
   call-stale-email-workflow:
