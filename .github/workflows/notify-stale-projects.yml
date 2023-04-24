@@ -1,8 +1,8 @@
-name: call stale project email
+name: send stale project email
 
 on: pull_request
 
 jobs:
   call-stale-email-workflow:
-    uses: thepolicylab-projectportals/.github/.github/workflows/notify-stale-projects.yml@feat-notification-stale-projects
+    uses: thepolicylab-projectportals/.github/.github/workflows/notify-stale-projects.yml@ae9fece59230215705f3ad4b16d061bb13eac2fa
     secrets: inherit
