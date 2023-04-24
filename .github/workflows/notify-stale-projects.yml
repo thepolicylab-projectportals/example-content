@@ -4,5 +4,5 @@ on: pull_request
 
 jobs:
   call-stale-email-workflow:
-    uses: thepolicylab-projectportals/.github/.github/workflows/notify-stale-projects.yml@d57a6b0
+    uses: thepolicylab-projectportals/.github/.github/workflows/notify-stale-projects.yml@5c5a7e8d1fd1802c13217593edfc3489ddb4d06a
     secrets: inherit
