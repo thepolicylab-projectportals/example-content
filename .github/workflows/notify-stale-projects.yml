@@ -6,7 +6,5 @@ on:
 
 jobs:
   call-stale-email-workflow:
-    runs-on: ubuntu-20.04
-    steps:
-      - uses: thepolicylab-projectportals/.github/.github/workflows/notify-stale-projects.yml@911441e1163063826513ddd03f27bb85164ba095
-        secrets: inherit
+    uses: thepolicylab-projectportals/.github/.github/workflows/notify-stale-projects.yml@911441e1163063826513ddd03f27bb85164ba095
+    secrets: inherit
