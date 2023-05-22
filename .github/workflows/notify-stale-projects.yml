@@ -5,51 +5,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
-    runs-on: ubuntu-20.04
-
-    steps:
-      - name: Checkout source
-        uses: actions/checkout@v3
-
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18
-          registry-url: https://npm.pkg.github.com/
-          scope: '@thepolicylab-projectportals'
-          cache: 'yarn'
-
-      - run: yarn config set 'npmRegistries["//npm.pkg.github.com"].npmAuthToken' "${{ secrets.GITHUB_TOKEN }}"
-
-      - id: get-cache
-        uses: actions/cache/restore@v3
-        with:
-          path: .cache
-          key: ${{ runner.os }}-primes
-
-      - run: yarn install --immutable
-
-      - name: Cache yarn install
-        id: save-cache
-        uses: actions/cache/save@v3
-        with:
-          path: .cache
-          key: ${{ steps.get-cache.outputs.cache-primary-key }}
-
-      - name: Start up app
-        run: yarn develop & npx wait-on http://localhost:8000
-
-      - run: |
-          curl 'http://localhost:8000/___graphql' \
-          -X POST \
-          -H 'content-type: application/json' \
-          --data '{"query": "query { allProject { nodes { id, title, slug, status, opportunityCloses, endDate, startDate, lastModified, mainContact { name, email }  } } }"}' \
-          --verbose > query.txt
-        id: get_projects
-
-      - run: cat query.txt
   call-stale-email-workflow:
-    uses: thepolicylab-projectportals/.github/.github/workflows/notify-stale-projects.yml@a090a401ca457d0d91bb404ba17e2c45a48797ef
-    with:
-      query: query.txt
-    secrets: inherit
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: thepolicylab-projectportals/.github/.github/workflows/notify-stale-projects.yml@911441e1163063826513ddd03f27bb85164ba095
+        secrets: inherit
