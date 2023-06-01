@@ -6,7 +6,7 @@ on:
 
 jobs:
   call-stale-email-workflow:
-    uses: thepolicylab-projectportals/.github/.github/workflows/notify-stale-projects.yml@040b63fc89a348d30d1c458ec763bae1001a7a10
+    uses: thepolicylab-projectportals/.github/.github/workflows/notify-stale-projects.yml@e6b97c999fa844cabe18ac6fcf713258a77206d6
     with:
       to: "heather_yu@brown.edu"
       site: "example-site.brown.edu"
