@@ -3443,9 +3443,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@thepolicylab-projectportals/gatsby-theme-project-portal@npm:^6.1.6":
-  version: 6.1.6
-  resolution: "@thepolicylab-projectportals/gatsby-theme-project-portal@npm:6.1.6"
+"@thepolicylab-projectportals/gatsby-theme-project-portal@npm:^6.2.0-a3":
+  version: 6.2.0-a3
+  resolution: "@thepolicylab-projectportals/gatsby-theme-project-portal@npm:6.2.0-a3"
   dependencies:
     "@headlessui/react": ^1.7.14
     "@tailwindcss/forms": ^0.5.3
@@ -3471,24 +3471,24 @@ __metadata:
     gatsby: ^5.3.3
     react: ^18.2.0
     react-dom: ^18.2.0
-  checksum: 9dfe9be21471568f42fb0a1f4ded28c79e4181ee15fd0d6700c4ca36a2e69972cab2969cd4bdf2ef4e363008d33ef00cc1536c60a6c728a64df3feefa193bc2d
+  checksum: 527676e7c1de8bbe6b17b6f5d552ca4944baeddb128d0d47d0251bd6ac7f991675d5c168a0294f80faadf61588f533b383d85f15d11e5d8c4f90c82c6d934407
   languageName: node
   linkType: hard
 
-"@thepolicylab-projectportals/project-portal-content-netlify@npm:^6.1.6":
-  version: 6.1.6
-  resolution: "@thepolicylab-projectportals/project-portal-content-netlify@npm:6.1.6"
+"@thepolicylab-projectportals/project-portal-content-netlify@npm:^6.2.0-a3":
+  version: 6.2.0-a3
+  resolution: "@thepolicylab-projectportals/project-portal-content-netlify@npm:6.2.0-a3"
   dependencies:
     gatsby-plugin-netlify-cms: ^7.8.0
     gatsby-source-filesystem: ^5.7.0
     gatsby-transformer-json: 5.9.0
     netlify-cms-app: ^2.15.72
   peerDependencies:
-    "@thepolicylab-projectportals/gatsby-theme-project-portal": 6.1.6
+    "@thepolicylab-projectportals/gatsby-theme-project-portal": 6.2.0-a3
     gatsby: ^5.3.3
     react: ^18.2.0
     react-dom: ^18.2.0
-  checksum: 0bcdf957fe4804b1221114df8dce19de83b0dfd17d62cc69636422dcf7e0e77a0f1004dbaad42298fb3ce9528a507908e1ad758b91a8df4d4489b0a56821aafd
+  checksum: 48ffaa0ced58f8644ed709ef885818afe2069f2c5609a9ea24a7fc32dab4c4f3c24bd75a9d0c26e7146be387248c1e2bc260e16b847907ea57e1b4a85c0e58db
   languageName: node
   linkType: hard
 
@@ -7986,8 +7986,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "example-content@workspace:."
   dependencies:
-    "@thepolicylab-projectportals/gatsby-theme-project-portal": ^6.1.6
-    "@thepolicylab-projectportals/project-portal-content-netlify": ^6.1.6
+    "@thepolicylab-projectportals/gatsby-theme-project-portal": ^6.2.0-a3
+    "@thepolicylab-projectportals/project-portal-content-netlify": ^6.2.0-a3
     gatsby: ^5.10.0
     gatsby-plugin-netlify: ^5.1.0
     gatsby-plugin-sitemap: ^6.6.0
