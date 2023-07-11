@@ -1,20 +1,18 @@
 {
   "topics": [
-    "data-mining",
-    "parks",
-    "government-operations"
+    "data-mining"
   ],
   "agency": "Quinetucket Environmental Office",
   "summary": "We want to set up a project portal for the state of Quinetucket.",
-  "question": "Test ongoing project1",
+  "question": "Test Open Project",
   "mainContact": "center-for-computation-and-visualization",
-  "created": "2022-04-22T00:03:00.000Z",
+  "created": "2022-11-07T02:06:48.000Z",
   "endDate": "",
   "opportunityCloses": "",
-  "startDate": "2023-4-14",
+  "startDate": "",
   "expertise": "",
-  "status": "ongoing",
-  "title": "test 1 project",
+  "status": "open",
+  "title": "test 4 project",
   "purpose": "",
   "lastModified": "2022-11-29T21:27:50.588Z",
   "deliverable": ""
