@@ -14,8 +14,11 @@
   "startDate": "2022-11-14",
   "expertise": "",
   "status": "completed",
+  "projectTeam": [
+    "john-smith"
+  ],
   "title": "Improve Statewide Project Communication",
   "purpose": "",
-  "lastModified": "2023-06-26T18:29:48.666Z",
+  "lastModified": "2023-08-14T14:34:41.219Z",
   "deliverable": ""
 }
