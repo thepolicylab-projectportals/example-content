@@ -3475,20 +3475,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@thepolicylab-projectportals/project-portal-content-netlify@npm:^6.1.6":
-  version: 6.1.6
-  resolution: "@thepolicylab-projectportals/project-portal-content-netlify@npm:6.1.6"
+"@thepolicylab-projectportals/project-portal-content-netlify@npm:^6.2.3":
+  version: 6.2.3
+  resolution: "@thepolicylab-projectportals/project-portal-content-netlify@npm:6.2.3"
   dependencies:
-    gatsby-plugin-netlify-cms: ^7.8.0
-    gatsby-source-filesystem: ^5.7.0
-    gatsby-transformer-json: 5.9.0
+    gatsby-plugin-netlify-cms: ^7.11.0
+    gatsby-source-filesystem: ^5.11.0
+    gatsby-transformer-json: 5.11.0
     netlify-cms-app: ^2.15.72
   peerDependencies:
-    "@thepolicylab-projectportals/gatsby-theme-project-portal": 6.1.6
+    "@thepolicylab-projectportals/gatsby-theme-project-portal": 6.2.3
     gatsby: ^5.3.3
     react: ^18.2.0
     react-dom: ^18.2.0
-  checksum: 0bcdf957fe4804b1221114df8dce19de83b0dfd17d62cc69636422dcf7e0e77a0f1004dbaad42298fb3ce9528a507908e1ad758b91a8df4d4489b0a56821aafd
+  checksum: b2c8c3362b8e1520bebc895fdc2b799fd78aa215d67b015a74eba7b13b3d721a2f76781ebf821c4979952f0cc608ff60328f4686a2a4c5823cc677a14902cc66
   languageName: node
   linkType: hard
 
@@ -8015,7 +8015,7 @@ __metadata:
   resolution: "example-content@workspace:."
   dependencies:
     "@thepolicylab-projectportals/gatsby-theme-project-portal": ^6.1.6
-    "@thepolicylab-projectportals/project-portal-content-netlify": ^6.1.6
+    "@thepolicylab-projectportals/project-portal-content-netlify": ^6.2.3
     gatsby: ^5.11.0
     gatsby-plugin-netlify: ^5.1.0
     gatsby-plugin-sitemap: ^6.11.0
@@ -8945,9 +8945,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-netlify-cms@npm:^7.8.0":
-  version: 7.10.0
-  resolution: "gatsby-plugin-netlify-cms@npm:7.10.0"
+"gatsby-plugin-netlify-cms@npm:^7.11.0":
+  version: 7.11.0
+  resolution: "gatsby-plugin-netlify-cms@npm:7.11.0"
   dependencies:
     "@babel/runtime": ^7.20.13
     "@soda/friendly-errors-webpack-plugin": 1.8.1
@@ -8964,7 +8964,7 @@ __metadata:
     react: ^18.0.0 || ^0.0.0
     react-dom: ^18.0.0 || ^0.0.0
     webpack: ^5.0.0
-  checksum: c56aad16a3a14640332cf1994d1d9be4c4544bd826ce0681ae3b331f3c6613069bf6b003a5b665732c057159f112285cf4de5ccab9afa190ab4d4c1d63150ad9
+  checksum: 59e89e090e958732c13fdba72ba478d734440f265d48ef2401903bc40434a6757501a8bc239433b65c8eba2be9d1a8fa91693c99d6daf32f059f0518064821ea
   languageName: node
   linkType: hard
 
@@ -9199,6 +9199,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-source-filesystem@npm:^5.11.0":
+  version: 5.11.0
+  resolution: "gatsby-source-filesystem@npm:5.11.0"
+  dependencies:
+    "@babel/runtime": ^7.20.13
+    chokidar: ^3.5.3
+    file-type: ^16.5.4
+    fs-extra: ^11.1.1
+    gatsby-core-utils: ^4.11.0
+    mime: ^3.0.0
+    pretty-bytes: ^5.6.0
+    valid-url: ^1.0.9
+    xstate: ^4.37.2
+  peerDependencies:
+    gatsby: ^5.0.0-next
+  checksum: f697e2012c4d56764388a62ff26a97de33bae2d0085043f43cb904b0d8f24ed0a18b5559e5b71fc8c31f6198a73c421484e6d4fdda40d41f45675bc4a1596870
+  languageName: node
+  linkType: hard
+
 "gatsby-source-filesystem@npm:^5.7.0":
   version: 5.10.0
   resolution: "gatsby-source-filesystem@npm:5.10.0"
@@ -9238,15 +9257,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-transformer-json@npm:5.9.0":
-  version: 5.9.0
-  resolution: "gatsby-transformer-json@npm:5.9.0"
+"gatsby-transformer-json@npm:5.11.0":
+  version: 5.11.0
+  resolution: "gatsby-transformer-json@npm:5.11.0"
   dependencies:
     "@babel/runtime": ^7.20.13
     bluebird: ^3.7.2
   peerDependencies:
     gatsby: ^5.0.0-next
-  checksum: 2c382cf35274c966b9548f52261ffe4299cd7fb7916b0c5229b33796a39071b11289d17f398202b9314faf3491782afebfd9d58720754b5154fe8d136c94abaa
+  checksum: 16b6f0ac16c647952f248cb15f4a41acae2bb42b3416c5654958a49e1fb5bdb2280693007632141cd8a9302f4e360b4ffc7ded3934a2c49dd1cb195ce03b2cef
   languageName: node
   linkType: hard
 
