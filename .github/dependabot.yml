@@ -11,3 +11,7 @@ updates:
       thepolicylab-projectportals:
         patterns:
           - "@thepolicylab-projectportals/*"
+      gatsby:
+        patterns:
+          - "gatsby"
+          - "gatsby*"
