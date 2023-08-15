@@ -14,4 +14,4 @@ updates:
       gatsby:
         patterns:
           - "gatsby"
-          - "gatsby*"
+          - "gatsby-*"
