@@ -8,6 +8,6 @@ updates:
     schedule:
       interval: daily
     groups:
-      @thepolicylab-projectportals:
+      thepolicylab-projectportals:
         patterns:
           - "@thepolicylab-projectportals/*"
