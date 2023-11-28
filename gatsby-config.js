@@ -14,7 +14,7 @@ module.exports = {
         faviconPath: `${__dirname}/content/theme-image/favicon.png`,
       },
     },
-    `@thepolicylab-projectportals/project-portal-content-netlify`,
+    `@thepolicylab-projectportals/project-portal-content-decap`,
     `gatsby-plugin-netlify`,
     `gatsby-plugin-sitemap`,
   ],
