@@ -22,6 +22,20 @@ then
 yarn develop
 ```
 
+## Accessing the Developer CMS
+
+Change static/admin/config.yml
+
+```yaml
+local_backend: true
+```
+
+Run in a second terminal
+
+```shell
+npx decap-server
+```
+
 ### Enabling users to access Netlify CMS
 Add the users to the "Identity" tab in the Netlify CMS UI.
 You also need to activate:
