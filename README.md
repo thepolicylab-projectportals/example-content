@@ -46,7 +46,6 @@ npx decap-server
 ```
 
 ### Enabling users to access Decap CMS
-Add the users to the "Identity" tab in the Netlify CMS UI.
-You also need to activate:
-- Any external providers which are wanted: GitHub or Google are commonly used at CCV.
-- Git gateway.
+- Enabling login using GitHub or Google allows you to use SSO with either of those providers.
+- Adding the users to the Identity Tab gives them the opportunity to login to the CMS at all, using either the SSO providers or by setting up an account on Netlify.
+- Activating the Git gateway is necessary to allow the CMS to write back to the repository.
