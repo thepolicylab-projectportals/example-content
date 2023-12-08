@@ -7,8 +7,8 @@ A usage of
 [gatsby-theme-project-portal](https://github.com/thepolicylab-projectportals/project-portal-theme)
 for the (fictional) State of Quinetucket. 
 
-The set of instructions below can be applied to any respective partner's Project Portal repository to spin up a local version of the respective Project Portal site.
 
+The following instructions are applicable to any Project Portal repository for our partners. They guide you through setting up a local instance of the specific Project Portal site associated with the repository.
 ## Quick Start Guide
 
 Clone the repo
